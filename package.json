@@ -13,6 +13,9 @@
   "dependencies": {
     "vuetify": "^2.5.8"
   },
+  "alias": {
+    "vue": "./vue.window.js"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
   }
