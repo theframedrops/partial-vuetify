@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "yarn parcel build ./entry.js --global PartialVuetify --no-source-maps",
+    "build": "yarn parcel build ./entry.js --global PartialVuetify --no-source-maps --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
