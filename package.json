@@ -1,0 +1,19 @@
+{
+  "name": "vuetify-partial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn parcel build ./entry.js --global PartialVuetify --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Corbin Crutchley",
+  "license": "ISC",
+  "dependencies": {
+    "vuetify": "^2.5.8"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

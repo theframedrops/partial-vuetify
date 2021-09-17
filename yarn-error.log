@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js build
+
+PATH: 
+  C:\tools\Cmder\bin;C:\tools\Cmder\vendor\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\AdoptOpenJDK\jre-8.0.292.10-hotspot\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\ProgramData\nvm;C:\Program Files\nodejs;C:\Users\crutchcorn\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\crutchcorn\ShellScripts;C:\tools\watchman\windows\bin;C:\tools\scc;C:\Users\crutchcorn\AppData\Local\Microsoft\WindowsApps;C:\Users\crutchcorn\.dotnet\tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\tools\chromedriver;C:\Users\crutchcorn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\crutchcorn\.cargo\bin;C:\tools\mpg123;C:\Program Files (x86)\Bluetooth Command Line Tools\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Calibre2\;C:\Program Files (x86)\Yarn\bin\;C:\tools\twitch-cli;C:\Users\crutchcorn\anaconda3\Scripts;C:\Users\crutchcorn\anaconda3;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Go\bin;C:\Ruby30-x64\bin;C:\Qt\5.15.2\mingw81_64\bin;C:/Qt/Tools/mingw810_64\bin;C:\Program Files\AdoptOpenJDK\jre-8.0.272.10-hotspot\bin;C:\WI;C:\tools\Cmder;C:\Program Files (x86)\GitHub CLI\;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Oracle\VirtualBox;C:\Users\crutchcorn\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\crutchcorn\AppData\Local\Yarn\bin;C:\Users\crutchcorn\go\bin;C:\tools\Cmder
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.9.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\crutchcorn\git\Donation\vuetify-partial\package.json: Unexpected token e in JSON at position 145
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "vuetify-partial",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "yarn parcel build .\entry.js --global PartialVuetify --no-source-maps",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Corbin Crutchley",
+    "license": "ISC",
+    "dependencies": {
+      "vuetify": "^2.5.8"
+    },
+    "devDependencies": {
+      "parcel-bundler": "^1.12.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
